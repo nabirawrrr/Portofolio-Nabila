@@ -187,36 +187,29 @@ img {
 .contact h2 {
   text-align: center;
 }
-/* Gaya untuk Kontainer Link (div class="social-links") */
 .social-links {
-  /* Memberi jarak di atas dan bawah ikon */
   margin-top: 20px;
   margin-bottom: 20px;
-  /* Opsional: Untuk menengahkan ikon (sesuai dengan .contact p) */
   text-align: center;
 }
 
-/* Gaya untuk setiap Tautan Ikon (tag <a>) */
 .social-links a {
   text-decoration: none;
-  /* Memberi jarak di antara kedua ikon */
   margin: 0 10px;
 }
 
-/* Gaya untuk Ikon itu sendiri (tag <i>) */
 .social-links a i {
-  font-size: 40px; /* Ukuran ikon */
-  color: #555; /* Warna default ikon (misalnya abu-abu gelap) */
-  transition: color 0.3s; /* Transisi halus saat warna berubah */
+  font-size: 40px;
+  color: #555;
+  transition: color 0.3s;
 }
 
-/* Mengubah warna saat kursor di atas ikon (Hover Effect) */
 .social-links a .ri-instagram-fill:hover {
-  color: #e1306c; /* Warna khas Instagram */
+  color: #e1306c;
 }
 
 .social-links a .ri-linkedin-box-fill:hover {
-  color: #0077b5; /* Warna khas LinkedIn */
+  color: #0077b5;
 }
 
 /*=============== FOOTER ===============*/
